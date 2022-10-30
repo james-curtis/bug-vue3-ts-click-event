@@ -2,9 +2,13 @@
 // This starter template is using Vue 3 <script setup> SFCs
 // Check out https://vuejs.org/api/sfc-script-setup.html#script-setup
 function onClickHandler(e: MouseEvent) {
+  // `e` would be PointerEvent
+  // @link https://www.w3.org/TR/uievents/#event-types-list
   console.log('click', e);
 }
 function onDblclick(e: MouseEvent) {
+  // it's right. MouseEvent
+  // @link https://www.w3.org/TR/uievents/#event-types-list
   console.log('dblclick', e);
 }
 </script>
